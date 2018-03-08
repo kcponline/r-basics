@@ -11,16 +11,19 @@ It's observable that most beginners can understand & remember the concept of git
 So the first important point of this project is actually all the activities which had already taken place up to this point including this journal/log that is being entered.  This first important point is to act on what the skill set allows and refine or tune things gradually but avoid obsessive improvements.  The journey for a beginner is a lot more important than the result or the outcome.
 
 The undocumented activities: Many steps prior to the successful creation of this github repo is not documented by github and could cause a great deal of anxiety for a beginner.  Therefore, the following is an outline of these steps:
-  1)  using console, navigate to Desktop and create folders: 
+  1) create a new repo `r-basics` on github with readme, license, and .gitignore: do so with browser and login to account.
+  2) using console, navigate to Desktop and create folders: 
     a) cd Desktop
     b) mkdir proving
     c) cd proving
     d) mkdir r-basics
     e) cd r-basics
-  2)  initialize local repo and create remote repo
+  3)  initialize local repo and create remote repo
     a) git init (this creates a hidden folder .git)
     b) git status (shows branch & changes)
     c) touch index.html
     d) git status
     e) git commit -m "initial commit"
     f) git remote add origin https://github.com/accountname/r-basics.git
+    g) git push -u origin master
+With the exception of must follow step 1a thru 1e, repeat this several times and try skipping some steps or switch the steps and see the different kinds of errors.  Note that although cloning is easier, these steps are often used in other situations.

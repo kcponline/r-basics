@@ -1,7 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
+		<meta charset="utf-8">
 		<title>01-01a-basehtml</title>
+		<style type="text/css">
+			h1 {
+				text-decoration: underline;
+			}
+			h2 {
+				color: purple;
+			}
+			img {
+				width: 640px;
+				height: 320px;
+			}
+			ol,ul {
+				border-style: solid;
+				border-width: 5px;
+			}
+		</style>
 	</head>
 	<body>
 		<h1>branch 01-01a-basehtml</h1>
@@ -10,11 +27,11 @@
 		<br>
 
 		<h2>image with img src</h2>
-		<img width="640" height="320" frameborder="0" src="01-01a_rewrite.png" alt="rewrite"/>
+		<img src="01-01a_rewrite.png" alt="rewrite"/>
 		<br>
 
 		<h2>image with img src</h2>
-		<img width="640" height="320" frameborder="1" src="01-01a_vim.png" alt="vim editor"/>
+		<img src="01-01a_vim.png" alt="vim editor"/>
 		<br>
 
 		<p>Note, in vim editor, move the blinking cursor to the line which is to be deleted and then enter "d" twice to clear the line which means the commit as stated by that line will be deleted. Then to finish, enter ":wq" and press enter.  ":wq" means to save and exit and is required. However if a mistake is made and you wish to redo the vim editor, then use ":q!" to exit w/o saving.</p>

@@ -20,6 +20,7 @@ h2 {
 	background: lightblue;
 	border-style: solid;
 	border-width: 1px;
+	width: 25%;
 }
 img {
 	border-style: solid;
@@ -31,5 +32,4 @@ p {
 	background: #efeee7;
 	border-style: solid;
 	border-width: 1px;
-
 }

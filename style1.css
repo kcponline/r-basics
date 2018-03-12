@@ -1,0 +1,35 @@
+body {
+	/*margin: 0;
+	padding: 0;*/
+	background: #efeee7;
+	border-style: solid;
+	border-width: 1px;
+}
+header {
+	background: #d21034;
+	border-style: solid;
+	border-width: 1px;
+}
+h1 {
+	background: lightpink;
+	border-style: solid;
+	border-width: 1px;
+}
+h2 {
+	color: purple;
+	background: lightblue;
+	border-style: solid;
+	border-width: 1px;
+}
+img {
+	border-style: solid;
+	border-width: 1px;
+	width: 30%;
+	height: 30%;
+}
+p {
+	background: #efeee7;
+	border-style: solid;
+	border-width: 1px;
+
+}

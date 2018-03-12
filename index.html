@@ -2,102 +2,143 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>01-01a-basehtml</title>
+		<title>01-01a-01-basehtml</title>
 		<style type="text/css">
+			body {
+				/*margin: 0;
+				padding: 0;*/
+				background: #efeee7;
+				border-style: solid;
+				border-width: 1px;
+			}
+			header {
+				background: #d21034;
+				border-style: solid;
+				border-width: 1px;
+			}
 			h1 {
-				text-decoration: underline;
+				background: lightpink;
+				border-style: solid;
+				border-width: 1px;
 			}
 			h2 {
 				color: purple;
+				background: lightblue;
+				border-style: solid;
+				border-width: 1px;
 			}
 			img {
-				width: 640px;
-				height: 320px;
-			}
-			ol,ul {
 				border-style: solid;
-				border-width: 5px;
+				border-width: 1px;
+				width: 30%;
+				height: 30%;
 			}
+			p {
+				background: #efeee7;
+				border-style: solid;
+				border-width: 1px;
+
+			}
+			.listsample {
+				background: lightgreen;
+				border-style: solid;
+				border-width: 1px;
+				width: 30%;
+			}
+
+			#tblanimal {
+				background: yellow;
+				border-style: solid;
+				border-width: 1px;
+				width: 50%;
+			}
+			#ytplayer {
+				width: 60%;
+				height: 60%;
+			}
+
 		</style>
 	</head>
 	<body>
-		<h1>branch 01-01a-basehtml</h1>
-		<h2>a commit is erased from remote branch - reverted back to prior commit</h2>
-		<p>deleting a remote branch is known as rewriting history which is not a good practice and can cause a lot of other unintended problems when there are other collaboraors who had cloned, fetched, pulled and made changes.  However, for a beginner, it's ok to do as a solo.</p>
-		<br>
+		<header>
+			<h1>branch 01-01a-01-basehtml icw-02-02</h1>
+			<h2>a commit is erased from remote branch - reverted back to prior commit (h2 tag)</h2>
+			<p>here the internal styling is added. in the previous branch, styling was done as attribute of each element</p>
+		</header>
 
-		<h2>image with img src</h2>
-		<img src="01-01a_rewrite.png" alt="rewrite"/>
-		<br>
+		<div>
+			<h2>image with img src (h2 tag)</h2>
+			<img src="01-01a_rewrite.png" alt="rewrite"/>
+			<br>
 
-		<h2>image with img src</h2>
-		<img src="01-01a_vim.png" alt="vim editor"/>
-		<br>
+			<h2>image with img src (h2 tag)</h2>
+			<img src="01-01a_vim.png" alt="vim editor"/>
+			<br>
 
-		<p>Note, in vim editor, move the blinking cursor to the line which is to be deleted and then enter "d" twice to clear the line which means the commit as stated by that line will be deleted. Then to finish, enter ":wq" and press enter.  ":wq" means to save and exit and is required. However if a mistake is made and you wish to redo the vim editor, then use ":q!" to exit w/o saving.</p>
-		<br>
+			<p>Note, in vim editor, move the blinking cursor to the line which is to be deleted and then enter "d" twice to clear the line which means the commit as stated by that line will be deleted. Then to finish, enter ":wq" and press enter.  ":wq" means to save and exit and is required. However if a mistake is made and you wish to redo the vim editor, then use ":q!" to exit w/o saving.</p>
+			<br>
 
-		<h2>image with img src</h2>
-		<img src="" alt="placeholder"/>
-		<br>
+			<h2>image with img src (h2 tag)</h2>
+			<img src="" alt="placeholder"/>
+			<br>
 
-		<h2>image with img src</h2>
-		<img src="http://en.spongepedia.org/images/thumb/3/33/Spongebob!!!.jpg/180px-Spongebob!!!.jpg" alt="Spongebob!" />
-		<br>
+			<h2>image with img src (h2 tag)</h2>
+			<img src="http://en.spongepedia.org/images/thumb/3/33/Spongebob!!!.jpg/180px-Spongebob!!!.jpg" alt="Spongebob!" />
+			<br>
 
-		<h2>hyperlink with a href</h2>
-		<a href="any_url_you_want" target="_blank">target="_blank" opens a new tab</a>
-		<br>
+			<h2>hyperlink with a href (h2 tag)</h2>
+			<a href="any_url_you_want" target="_blank">target="_blank" opens a new tab</a>
+			<br>
 
-		<h2>hyperlink with a href</h2>
-		<a href="#">href="#" makes a placeholder link and goes no where</a>
+			<h2>hyperlink with a href (h2 tag)</h2>
+			<a href="#">href="#" makes a placeholder link and goes no where</a>
 
-		<hr>
+			<hr>
 
-		<h2>ordered list</h2>
-		<ol>
-			<li>item 1</li>
-			<li>item 2</li>
-			<li>item 3</li>
-			<li>item 4</li>
-		</ol>
+			<h2>ordered list - class="listsample" (h2 tag)</h2>
+			<ol class="listsample">
+				<li>item 1</li>
+				<li>item 2</li>
+				<li>item 3</li>
+				<li>item 4</li>
+			</ol>
 
-		<h2>unordered list</h2>
-		<ul>
-			<li>item 1</li>
-			<li>item 2</li>
-			<li>item 3</li>
-			<li>item 4</li>
-		</ul>
+			<h2>unordered list - class="listsample" (h2 tag)</h2>
+			<ul class="listsample">
+				<li>item 1</li>
+				<li>item 2</li>
+				<li>item 3</li>
+				<li>item 4</li>
+			</ul>
 
-		<h2>table</h2>
-		<table style="width:100%">
-			<tr>
-				<td>animal class</td>
-				<td>animal name</td>
-			</tr>
-			<tr>
-				<td>mammal</td>
-				<td>hyena</td>
-			</tr>
-			<tr>
-				<td>reptile</td>
-				<td>iguana</td>
-			</tr>
-			<tr>
-				<td>mammal</td>
-				<td>chimpanzee</td>
-			</tr>
-			<tr>
-				<td>bird</td>
-				<td>eagle</td>
-			</tr>
-		</table>
+			<h2>table (h2 tag)</h2>
+			<table id="tblanimal">
+				<tr>
+					<td>animal class</td>
+					<td>animal name</td>
+				</tr>
+				<tr>
+					<td>mammal</td>
+					<td>hyena</td>
+				</tr>
+				<tr>
+					<td>reptile</td>
+					<td>iguana</td>
+				</tr>
+				<tr>
+					<td>mammal</td>
+					<td>chimpanzee</td>
+				</tr>
+				<tr>
+					<td>bird</td>
+					<td>eagle</td>
+				</tr>
+			</table>
 
-		<h2>embed video with iframe</h2>
-		<iframe id="ytplayer" type="text/html" width="640" height="390" 
-		src="http://www.youtube.com/embed/M7lc1UVf-VE?autoplay=1&origin=http://example.com" frameborder="0"></iframe>
-
+			<h2>embed video with iframe (h2 tag)</h2>
+			<iframe id="ytplayer" type="text/html" 
+			src="index.html">
+		</div>
 
 	</body>
 </html>

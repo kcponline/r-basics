@@ -14,20 +14,22 @@ h1 {
 	background: lightpink;
 	border-style: solid;
 	border-width: 1px;
+	text-align: center;
 }
 h2 {
 	color: purple;
 	background: lightblue;
 	border-style: solid;
 	border-width: 1px;
-	width: 25%;
+	text-align: center;
+	/*width: 25%;*/
 }
-img {
+/*img {
 	border-style: solid;
 	border-width: 1px;
 	width: 30%;
 	height: 30%;
-}
+}*/
 p {
 	background: #efeee7;
 	border-style: solid;

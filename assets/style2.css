@@ -15,3 +15,40 @@
 	width: 60%;
 	height: 60%;
 }
+/*#imgheaders {
+	background: red;
+	border-style: solid;
+	border-width: 1px;
+}*/
+.imgtype {
+	width: 25%;
+	float: left;
+	/*border-style: 0;*/
+	border-width: 0;
+}
+.images {
+	width: 25%;
+	float: left;
+}
+.hrefheaderbox {
+	background: orange;
+	width: 50%;
+	float: left;
+	overflow: auto;
+}
+.hrefurlbox {
+	background: yellow;
+	width: 50%;
+	float: left;
+	/*overflow: auto;*/
+}
+#hreftypeleft, #hreflinkleft {
+	margin-left: 15%;
+	margin-right: 5%;
+	text-align: center;
+}
+#hreftyperight, #hreflinkright {
+	margin-right: 15%;
+	margin-left: 5%;
+	text-align: center;
+}

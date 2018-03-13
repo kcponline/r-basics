@@ -15,26 +15,32 @@
 
 		<div>
 			<div>
-				<h2>image with img src (h2 tag)</h2>
-				<h2>image with img src (h2 tag)</h2>
-				<h2>image with img src (h2 tag)</h2>
-				<h2>image with img src (h2 tag)</h2>
+				<h2 class="imgtype">img src relative (h2)</h2>
+				<h2 class="imgtype">img src relative (h2)</h2>
+				<h2 class="imgtype">img src placehold (h2)</h2>
+				<h2 class="imgtype">img src url (h2)</h2>
 			</div>
-			
-			<img src="01-01a_rewrite.png" alt="rewrite"/>
-			<img src="01-01a_vim.png" alt="vim editor"/>
-			<img src="" alt="placeholder"/>
-			<img src="http://en.spongepedia.org/images/thumb/3/33/Spongebob!!!.jpg/180px-Spongebob!!!.jpg" alt="Spongebob!" />
-
-			<p>Note, in vim editor, move the blinking cursor to the line which is to be deleted and then enter "d" twice to clear the line which means the commit as stated by that line will be deleted. Then to finish, enter ":wq" and press enter.  ":wq" means to save and exit and is required. However if a mistake is made and you wish to redo the vim editor, then use ":q!" to exit w/o saving.</p>
-
-			<h2>hyperlink with a href (h2 tag)</h2>
-			<a href="any_url_you_want" target="_blank">target="_blank" opens a new tab</a>
-			<br>
-
-			<h2>hyperlink with a href (h2 tag)</h2>
-			<a href="#">href="#" makes a placeholder link and goes no where</a>
-
+			<div>
+				<img class="images" src="01-01a_rewrite.png" alt="rewrite"/>
+				<img class="images" src="01-01a_vim.png" alt="vim editor"/>
+				<img class="images" src="" alt="placeholder"/>
+				<img class="images" src="http://en.spongepedia.org/images/thumb/3/33/Spongebob!!!.jpg/180px-Spongebob!!!.jpg" alt="Spongebob!" />
+			</div>
+				<p>Note, in vim editor, move the blinking cursor to the line which is to be deleted and then enter "d" twice to clear the line which means the commit as stated by that line will be deleted. Then to finish, enter ":wq" and press enter.  ":wq" means to save and exit and is required. However if a mistake is made and you wish to redo the vim editor, then use ":q!" to exit w/o saving.</p>
+			<div>
+				<div class="hrefheaderbox" id="hhbleft">
+					<h2 id="hreftypeleft">href opens new tab url (h2)</h2>
+				</div>
+				<div class="hrefheaderbox" id="hhbright">
+					<h2 id="hreftyperight">href placeholder (h2)</h2>
+				</div>
+				<div class="hrefurlbox" id="hubleft">
+					<a id="hreflinkleft" href="any_url_you_want" target="_blank">target="_blank" opens a new tab</a>
+				</div>
+				<div class="hrefurlbox" id="hubright">
+					<a id="hreflinkright" href="#">href="#" makes a placeholder link and goes no where</a>
+				</div>
+			</div>
 			<hr>
 
 			<h2>ordered list - class="listsample" (h2 tag)</h2>

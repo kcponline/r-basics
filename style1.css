@@ -17,21 +17,22 @@ h1 {
 	text-align: center;
 }
 h2 {
+	/*border-style: solid;
+	border-width: 1px;*/
+	/*width: 25%;*/
 	color: purple;
 	background: lightblue;
-	border-style: solid;
-	border-width: 1px;
 	text-align: center;
-	/*width: 25%;*/
 }
-/*img {
-	border-style: solid;
+img {
+/*	border-style: solid;
 	border-width: 1px;
-	width: 30%;
-	height: 30%;
-}*/
+	height: 30%;*/
+	width: 80%;
+	overflow: auto;
+}
 p {
-	background: #efeee7;
+	background: #61dafb;
 	border-style: solid;
 	border-width: 1px;
 }

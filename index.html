@@ -12,36 +12,37 @@
 			<h2>a commit is erased from remote branch - reverted back to prior commit (h2 tag)</h2>
 			<p>here the internal styling is added. in the previous branch, styling was done as attribute of each element</p>
 		</header>
-
-		<div>
-			<div>
-				<h2 class="imgtype">img src relative (h2)</h2>
-				<h2 class="imgtype">img src relative (h2)</h2>
-				<h2 class="imgtype">img src placehold (h2)</h2>
-				<h2 class="imgtype">img src url (h2)</h2>
-			</div>
-			<div>
+		<div id="imgexamples">
+			<div class="imgtype">
+				<h2>img 1</h2>
 				<img class="images" src="01-01a_rewrite.png" alt="rewrite"/>
+			</div>
+			<div class="imgtype">
+				<h2>img 2</h2>
 				<img class="images" src="01-01a_vim.png" alt="vim editor"/>
+				<p id="img2note">Note, in vim editor, move the blinking cursor to the line which is to be deleted and then enter "d" twice to clear the line which means the commit as stated by that line will be deleted. Then to finish, enter ":wq" and press enter.  ":wq" means to save and exit and is required. However if a mistake is made and you wish to redo the vim editor, then use ":q!" to exit w/o saving.</p>
+			</div>
+			<div class="imgtype">
+				<h2>img 3</h2>
 				<img class="images" src="" alt="placeholder"/>
+			</div>
+			<div class="imgtype">
+				<h2>img 4</h2>
 				<img class="images" src="http://en.spongepedia.org/images/thumb/3/33/Spongebob!!!.jpg/180px-Spongebob!!!.jpg" alt="Spongebob!" />
 			</div>
-				<p>Note, in vim editor, move the blinking cursor to the line which is to be deleted and then enter "d" twice to clear the line which means the commit as stated by that line will be deleted. Then to finish, enter ":wq" and press enter.  ":wq" means to save and exit and is required. However if a mistake is made and you wish to redo the vim editor, then use ":q!" to exit w/o saving.</p>
-			<div>
-				<div class="hrefheaderbox" id="hhbleft">
-					<h2 id="hreftypeleft">href opens new tab url (h2)</h2>
-				</div>
-				<div class="hrefheaderbox" id="hhbright">
-					<h2 id="hreftyperight">href placeholder (h2)</h2>
-				</div>
-				<div class="hrefurlbox" id="hubleft">
-					<a id="hreflinkleft" href="any_url_you_want" target="_blank">target="_blank" opens a new tab</a>
-				</div>
-				<div class="hrefurlbox" id="hubright">
-					<a id="hreflinkright" href="#">href="#" makes a placeholder link and goes no where</a>
-				</div>
+		</div>
+		<br>
+		<div id="hrefexamples">
+			<div class="hreftype">
+				<h2>href opens new tab url (h2)</h2>
+				<a id="hreflinkleft" href="any_url_you_want" target="_blank">target="_blank" opens a new tab</a>
 			</div>
-			<hr>
+			<div class="hreftype" id="hhbright">
+				<h2>href placeholder (h2)</h2>
+				<a id="hreflinkright" href="#">href="#" makes a placeholder link and goes no where</a>
+			</div>
+		</div>
+		<br>
 
 			<h2>ordered list - class="listsample" (h2 tag)</h2>
 			<ol class="listsample">
@@ -86,7 +87,6 @@
 			<h2>embed video with iframe (h2 tag)</h2>
 			<iframe id="ytplayer" type="text/html" 
 			src="index.html">
-		</div>
 
 	</body>
 </html>

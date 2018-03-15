@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
 body {
 	/*margin: 0;
 	padding: 0;*/
@@ -23,6 +27,11 @@ h2 {
 	color: purple;
 	background: lightblue;
 	text-align: center;
+}
+h3 {
+	color: darkblue;
+	text-align: center;
+	background: darkgray;
 }
 img {
 /*	border-style: solid;

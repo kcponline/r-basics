@@ -67,6 +67,38 @@
 .box4 {
   bottom: 0;
 }
+#relativeexamples {
+	background: pink;
+	width: 90%;
+	margin: auto;
+	overflow: auto;
+	padding: 10px;
+}
+.relative {
+	background: yellow;
+	height: 200px;
+	position: relative;
+	width: 160px;
+	text-align: center;
+	float: left;
+	overflow: auto;
+	margin-right: 26px;
+}
+.rbox1 {
+/*	top: 0;
+	left: 10px;*/
+}
+.rbox2 {
+/*	 top: 0;
+  	right: -40px;*/
+}
+.rbox3 {
+/*  bottom: -10px;
+  right: 20px;*/
+}
+.rbox4 {
+/*  bottom: 0;*/
+}
 #hrefexamples {
 	background: orange;
 	width: 90%;
